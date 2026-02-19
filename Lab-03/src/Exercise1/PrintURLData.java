@@ -1,4 +1,4 @@
-package Excercise1;
+package Exercise1;
 
 
 import java.net.MalformedURLException;
