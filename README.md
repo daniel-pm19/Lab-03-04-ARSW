@@ -221,3 +221,29 @@ The server listens on port 4445 and responds with the current system date whenev
 
 ## Evidence
 ![image 6](/Lab-03/img/exercise6.1.png)
+# Excercise 7
+## Description
+
+Distributed chat application implemented using Java RMI.
+Each instance publishes a remote object and connects to another client using IP and port.
+The application works in a peer-to-peer model (each client acts as both server and client).
+## Remote interface
+-Defines the remote method receiveMessage(String message).
+## Server
+-Requests a local port from the user.
+
+-Creates an RMI Registry on that port.
+
+-Publishes a remote object using Naming.rebind.
+
+-Waits to receive remote method calls.
+## Client
+-Requests remote IP and port from the user.
+
+-Connects using Naming.lookup.
+
+-Sends messages through remote method invocation.
+
+-Displays received messages in the console.
+## Evidence
+![Image7](/Lab-03/img/image.png)
