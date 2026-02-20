@@ -219,3 +219,5 @@ The server listens on port 4445 and responds with the current system date whenev
 
 ---
 
+## Evidence
+![image 6](/Lab-03/img/exercise6.1.png)
